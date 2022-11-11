@@ -6,9 +6,17 @@ class ReactState extends Component{
         this.state = {StateString:this.props.reactString,StateNumber:200};
     }
 
+    stateChange = () => {
+        this.setState({...this.state,StateNumber:300});
+        this.setState({...this.state,reactString:"리액트"});
+    }
     render(){
         return(
-            <div>{this.state.StateString}{this.state.StateNumber}</div>
+            <div>
+            {/* <div>{this.state.StateString}{this.state.StateNumber}</div>
+            {/* <button onClick={(e)=>{this.setState({...this.state,StateNumber:300})}}>300</button> */}
+            {/* <button onClick={(e)=>this.stateChange()}>300</button>  */}
+            </div>
         )
     }
 }
