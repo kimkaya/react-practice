@@ -4,6 +4,7 @@ import ReactstrapBadge from "./ReactstrapBadge";
 import ReactstrapDrop from "./ReactstrapDrop";
 import ReactstrapBtngrp from "./ReactstrapBtngrp";
 import ReactstrapCard from "./ReactstrapCard";
+import ReactstrapCarousel from "./ReactstrapCarousel";
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <ReactstrapDrop/>
       <ReactstrapBtngrp/>
       <ReactstrapCard/>
+      <ReactstrapCarousel/>
       
     </div>
   );
